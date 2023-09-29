@@ -26,19 +26,11 @@
 - [Getting Started](#toolbox-getting-started)
   * [Installation](#gear-installation)
   * [Run Locally](#running-run-locally)
-- [Contributing](#wave-contributing)
-- [License](#warning-license)
-- [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
 
 </details>  
 
 <!-- About the Project -->
 ## :star2: About the Project
-
-<div align="center">
-  <img src="readme_assets/3d-portfolio.png" height="auto" width="90%"/>
-</div>
 
 <br />
 
