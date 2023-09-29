@@ -1,1 +1,0 @@
-process.env.APP_ENV = 'production';
