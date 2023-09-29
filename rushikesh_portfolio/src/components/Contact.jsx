@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from 'react-toastify';
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -25,24 +26,34 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // {
+    //   emailjs.send("service_n5bigis","template_oew4xyh",{
+      // from_name: "d",
+      // to_name: "d",
+      // message: "d",
+      // reply_to: "d",
+      // from_email: "s",
+    //     });
+        
+    // }
     emailjs
       .send(
-        "service_r0jcplm",
-        "template_1t76uxq",
+        "service_n5bigis",
+        "template_oew4xyh",
         {
-          form_name: form.name,
-          to_name: "Liron",
-          from_email: form.email,
-          to_email: "contact@mail.com",
+          from_name: form.name,
+          to_name: "Rushikesh",
           message: form.message,
+          reply_to:"rushikeshpolawar.98@gmail.com",
+          from_email: form.email, 
         },
-        "Jqq9AvwIuSjoMiA5c"
+        "IlkTM46imsoQUg1LP"
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
+          // alert("Thank you. I will get back to you as soon as possible.");
+          toast.success("Thank you. I will get back to you as soon as possible.")
           setForm({
             name: "",
             email: "",
@@ -53,7 +64,8 @@ const Contact = () => {
           setLoading(false);
 
           console.log(error);
-          alert("Something went wrong.");
+          // alert("Something went wrong.");
+          toast.error("Something went wrong.")
         }
       );
   };

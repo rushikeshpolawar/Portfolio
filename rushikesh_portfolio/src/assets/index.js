@@ -25,8 +25,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import vconstruct from "./company/vconstruct-logo.png";
 
 import carrent from "./carrent.png";
+import scheduleViewer from "./scheduleViewer.png";
+import modelViewer  from "./modelviewer.png";
+import ideation  from "./ideationnn.png";
+import nirmaan from "./nirmaan.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -56,7 +61,12 @@ export {
   shopify,
   starbucks,
   tesla,
+  vconstruct,
   carrent,
   jobit,
   tripguide,
+  nirmaan,
+  scheduleViewer,
+  modelViewer,
+  ideation,
 };

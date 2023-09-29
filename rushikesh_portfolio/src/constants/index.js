@@ -18,11 +18,16 @@ import {
   meta,
   starbucks,
   tesla,
+  vconstruct,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  nirmaan,
+  scheduleViewer,
+  modelViewer,
+  ideation
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +47,35 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React.js",
     icon: web,
   },
   {
-    title: "Content Creator",
+    title: "JavaScript",
+    icon: mobile,
+  },
+  {
+    title: "Autodesk Forge",
     icon: creator,
   },
   {
-    title: "Backend Developer",
+    title: "NoSQL",
+    icon: mobile,
+  },
+  {
+    title: "Azure",
     icon: backend,
   },
   {
-    title: "React Native Developer",
+    title: "MUI",
+    icon: mobile,
+  },
+  {
+    title: "GraphQL",
+    icon: mobile,
+  },
+  {
+    title: "Nx",
     icon: mobile,
   },
 ];
@@ -116,50 +137,23 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer",
+    company_name: "vConstruct Pvt. Ltd.",
+    icon: vconstruct,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2021 - Present",
     points: [
+      "Built web solutions using React and front-end technologies to address construction challenges. Collaborated on design and implemented products using Agile methodology.",
+      "Demonstrated expertise in front-end development, independent problem-solving, and showcased skills through successful proof-of-concept implementations for product development. Assumed complete ownership of component development, database integration, and application performance optimization.",
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer - intern",
+    company_name: "vConstruct Pvt. Ltd.",
+    icon: vconstruct,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2021 - June 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,9 +192,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Virtual Construction Site",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Transforming ideation into a fully-fledged application product through effective execution of multiple proof-ofconcepts (POCs). A team of 8 members in developing vConstruct's inaugural in-house product. Developing a cutting-edge platform for seamless creation and management of construction projects, benefiting 70% of the industry. ",
     tags: [
       {
         name: "react",
@@ -211,55 +205,67 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: nirmaan,
+    source_code_link: "https://vconstruct.featureos.app/p/virtual-construction-site-platform-for-advanced-construction-management",
+    source_image: ideation,
   },
   {
-    name: "Job IT",
+    name: "Primavera P6 Data Viewer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Got Live data from Oracle primavera app and used to show Gantt chart in react web application. Build NPM web package that simplifies, easy to integrate with an intuitive, collaborative interface. Reduce $5M cost per year saving in tracking, planning, and quality for 3K Progress Report users. Collaborated with cross-functional teams to ensure successful project delivery. Maintained Coding standards",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MUI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "GraphQL",
         color: "pink-text-gradient",
       },
+      {
+        name: "Bryntum",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: scheduleViewer,
+    // source_code_link: "https://github.com/",
+    // source_image: nirmaan,
   },
   {
-    name: "Trip Guide",
+    name: "Forge based Model Viewer",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a POC web app for 3D model and 2D sheet viewing, collaboration, and analysis. Implemented synchronous/asynchronous techniques to enhance model loading performance and reduce load time. Explored methods to utilize BIM Models for Quantity Take-Off in construction",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MUI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Forge API's",
         color: "pink-text-gradient",
       },
+      {
+        name: "Azure",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: modelViewer,
+    // source_code_link: "https://github.com/",
+    // source_image: nirmaan,
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
