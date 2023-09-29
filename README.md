@@ -26,10 +26,6 @@
 - [Getting Started](#toolbox-getting-started)
   * [Installation](#gear-installation)
   * [Run Locally](#running-run-locally)
-- [Contributing](#wave-contributing)
-- [License](#warning-license)
-- [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
 
 </details>  
 
