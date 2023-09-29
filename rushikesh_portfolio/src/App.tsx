@@ -12,6 +12,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  ResumeComponent,
 } from "./components";
 import { Socialicons } from "./components/Socialicons";
 
@@ -28,6 +29,7 @@ function App() {
         <Experience />
         <Tech />
         <Works />
+        <ResumeComponent />
         {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
